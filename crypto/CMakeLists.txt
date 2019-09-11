@@ -14,7 +14,7 @@ set(GCM_SRC modes/cbc128.c  modes/ccm128.c  modes/cfb128.c  modes/ctr128.c  mode
 
 if (WIN32)
 	set(ASYNC_ARCH async/arch/async_win.c async/arch/async_null.c)
-elif (APPLE)
+elseif (APPLE)
 	set(ASYNC_ARCH async/arch/async_null.c)
 else()
 	set(ASYNC_ARCH async/arch/async_posix.c async/arch/async_null.c)
