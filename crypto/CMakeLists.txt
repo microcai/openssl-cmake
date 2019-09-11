@@ -43,7 +43,26 @@ file(GLOB SRCS
 
 	dh/*.c
 
-	des/*.c
+	des/cbc_cksm.c
+	des/cbc_enc.c
+	des/cfb64ede.c
+	des/cfb64enc.c
+	des/cfb_enc.c
+	des/des_enc.c
+	des/ecb3_enc.c
+	des/ecb_enc.c
+	des/fcrypt_b.c
+	des/fcrypt.c
+	des/ofb64ede.c
+	des/ofb64enc.c
+	des/ofb_enc.c
+	des/pcbc_enc.c
+	des/qud_cksm.c
+	des/rand_key.c
+	des/set_key.c
+	des/str2key.c
+	des/xcbc_enc.c
+
 	dsa/*.c
 	dso/*.c
 
